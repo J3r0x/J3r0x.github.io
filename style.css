@@ -1,20 +1,20 @@
 :root {
-  --erisu-base:           #222;
-  --erisu-base-lt:        #fff;
+  --jerox-base:           #222;
+  --jerox-base-lt:        #fff;
 
-  --erisu-primary:        #e15;
-  --erisu-primary-lt:     #e15;
-  --erisu-primary-ltr:    #fdd;
+  --jerox-primary:        #e15;
+  --jerox-primary-lt:     #e15;
+  --jerox-primary-ltr:    #fdd;
 
-  --erisu-secondary:      #a66;
-  --erisu-secondary-lt:   #a66;
-  --erisu-secondary-ltr:  #a66;
+  --jerox-secondary:      #a66;
+  --jerox-secondary-lt:   #a66;
+  --jerox-secondary-ltr:  #a66;
 
-  --erisu-border:         rgba(255,255,255,0.4);
+  --jerox-border:         rgba(255,255,255,0.4);
 }
 
 body {
-  background: var(--erisu-primary-ltr);
+  background: var(--jerox-primary-ltr);
   display: grid;
   place-items: center;
   height: 100vh;
@@ -23,11 +23,11 @@ body {
 .card{
   position: relative;
   box-sizing: border-box;
-  color: var(--erisu-primary-ltr);
+  color: var(--jerox-primary-ltr);
   border-radius: 4px;
   box-shadow: -2px 3px 6px rgba(238, 17, 85, 0.5);
   padding: 4px;
-  background: var(--erisu-primary);
+  background: var(--jerox-primary);
   transform: rotate(1deg);
 }
 .seem {
@@ -48,7 +48,7 @@ h1, h2 {
 }
 h2 {
   margin-top: 2px;
-  border-bottom: 1px solid var(--erisu-border);
+  border-bottom: 1px solid var(--jerox-border);
   width: 69%;
 }
 .hi {
@@ -56,8 +56,8 @@ h2 {
   right: 63px;
 	position: absolute;
 	display: inline;
-	background: var(--erisu-base-lt);
-	color: var(--erisu-base);
+	background: var(--jerox-base-lt);
+	color: var(--jerox-base);
 	padding: 2px 0px 2px 12px;
 	border-radius: 3px;
 	font-size: 21px;
@@ -77,7 +77,7 @@ h2 {
   display: inline;
 	width: 128px;
 	border-radius: 100%;
-	border: 3px solid var(--erisu-primary-ltr);
+	border: 3px solid var(--jerox-primary-ltr);
 	text-align: center;
 	display: revert;
 	margin-left: auto;
@@ -94,8 +94,8 @@ p {
 }
 .tag {
   /*
-  color: var(--erisu-primary);
-  background-color: var(--erisu-primary-ltr);
+  color: var(--jerox-primary);
+  background-color: var(--jerox-primary-ltr);
   */
   border-radius: 2px;
   padding: 0 2px 1px 3px;
@@ -108,10 +108,10 @@ p {
 .label {
   display: inline-block;
   width: 84px;
-  color: var(--erisu-base);
+  color: var(--jerox-base);
   text-align: center;
   text-decoration: none;
-  background: var(--erisu-primary-ltr);
+  background: var(--jerox-primary-ltr);
   margin: 10px 6px;
   padding: 3px 10px;
   border-radius: 1px;
@@ -124,15 +124,15 @@ p {
   color: #d27b7b;
 }
 a:hover {
-  color: var(--erisu-primary);
-  background: var(--erisu-base-lt);
-  box-shadow: 0 0px 3px var(--erisu-base-lt);
+  color: var(--jerox-primary);
+  background: var(--jerox-base-lt);
+  box-shadow: 0 0px 3px var(--jerox-base-lt);
   transition: 0.1s all ease;
 }
 .current {
   margin-top: 20px;
   padding-top: 2px;
-  border-top: 2px dashed var(--erisu-border);
+  border-top: 2px dashed var(--jerox-border);
   width: 170px;
   text-align: center;
 }
