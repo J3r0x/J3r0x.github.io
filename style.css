@@ -1,0 +1,167 @@
+:root {
+  --erisu-base:           #222;
+  --erisu-base-lt:        #fff;
+
+  --erisu-primary:        #e15;
+  --erisu-primary-lt:     #e15;
+  --erisu-primary-ltr:    #fdd;
+
+  --erisu-secondary:      #a66;
+  --erisu-secondary-lt:   #a66;
+  --erisu-secondary-ltr:  #a66;
+
+  --erisu-border:         rgba(255,255,255,0.4);
+}
+
+body {
+  background: var(--erisu-primary-ltr);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  overflow-y: hidden;
+}
+.card{
+  position: relative;
+  box-sizing: border-box;
+  color: var(--erisu-primary-ltr);
+  border-radius: 4px;
+  box-shadow: -2px 3px 6px rgba(238, 17, 85, 0.5);
+  padding: 4px;
+  background: var(--erisu-primary);
+  transform: rotate(1deg);
+}
+.seem {
+  place-items: center;
+  display: grid;
+  border: 2px dashed rgba(255,255,255,0.7);
+  border-radius: 3px;
+  padding: 12px 6px 16px 6px;
+}
+.profil {
+  text-align: center;
+}
+h1, h2 {
+	font-weight: normal;
+	margin: 0;
+  padding: 7px 0;
+	text-align: center;
+}
+h2 {
+  margin-top: 2px;
+  border-bottom: 1px solid var(--erisu-border);
+  width: 69%;
+}
+.hi {
+  top: 23px;
+  right: 63px;
+	position: absolute;
+	display: inline;
+	background: var(--erisu-base-lt);
+	color: var(--erisu-base);
+	padding: 2px 0px 2px 12px;
+	border-radius: 3px;
+	font-size: 21px;
+  box-shadow: 0 3px 12px rgba(217, 14, 80, 0.87);
+}
+.hi::after {
+	content: '';
+	width: 0;
+	height: 0;
+	border-top: 0;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid #fff;
+	left: -40px;
+	position: relative;
+}
+#picture {
+  display: inline;
+	width: 128px;
+	border-radius: 100%;
+	border: 3px solid var(--erisu-primary-ltr);
+	text-align: center;
+	display: revert;
+	margin-left: auto;
+	margin-right: auto;
+	width: 33%;
+	margin-top: 20px;
+}
+p {
+  text-align: center;
+  margin: 8px 1px 18px 0;
+}
+.heart {
+  font-size: 0.9em;
+}
+.tag {
+  /*
+  color: var(--erisu-primary);
+  background-color: var(--erisu-primary-ltr);
+  */
+  border-radius: 2px;
+  padding: 0 2px 1px 3px;
+}
+.socials {
+  padding: 10px 0 0 0;
+  display: grid;
+  place-items: center;
+}
+.label {
+  display: inline-block;
+  width: 84px;
+  color: var(--erisu-base);
+  text-align: center;
+  text-decoration: none;
+  background: var(--erisu-primary-ltr);
+  margin: 10px 6px;
+  padding: 3px 10px;
+  border-radius: 1px;
+  transition: 0.4s all ease;
+}
+.disabled {
+  pointer-events: none;
+  cursor: default;
+  background: #ffb5b5;
+  color: #d27b7b;
+}
+a:hover {
+  color: var(--erisu-primary);
+  background: var(--erisu-base-lt);
+  box-shadow: 0 0px 3px var(--erisu-base-lt);
+  transition: 0.1s all ease;
+}
+.current {
+  margin-top: 20px;
+  padding-top: 2px;
+  border-top: 2px dashed var(--erisu-border);
+  width: 170px;
+  text-align: center;
+}
+#talisman {
+  position: absolute;
+  bottom: -108px;
+  right: 0px;
+  transform: rotate(-1deg);
+}
+
+/* multi purpose stuff */
+.unselectable {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+/* media queries */
+@media screen {
+  .card {
+    width: 69%;
+    min-width: 280px;
+    max-width: 300px;
+  }
+}
+@media screen and (min-width:900px) {
+  .card {
+    width: 27%;
+    min-width: 280px;
+    max-width: 300px;
+  }
+}
