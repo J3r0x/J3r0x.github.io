@@ -60,7 +60,7 @@ h2 {
 	color: var(--jerox-base);
 	padding: 2px 0px 2px 12px;
 	border-radius: 3px;
-	font-size: 21px;
+	font-size: 25px;
   box-shadow: 0 3px 12px rgba(112, 217, 14, 0.87);
 }
 .hi::after {
