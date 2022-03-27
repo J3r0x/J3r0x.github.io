@@ -6,9 +6,9 @@
   --jerox-primary-lt:     rgb(153, 238, 17);
   --jerox-primary-ltr:    rgb(237, 255, 221);
 
-  --jerox-secondary:      #a66;
-  --jerox-secondary-lt:   #a66;
-  --jerox-secondary-ltr:  #a66;
+  --jerox-secondary:      rgb(170, 152, 102);
+  --jerox-secondary-lt:   rgb(166, 170, 102);
+  --jerox-secondary-ltr:  rgb(169, 170, 102);
 
   --jerox-border:         rgba(255,255,255,0.4);
 }
