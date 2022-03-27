@@ -2,9 +2,9 @@
   --jerox-base:           #222;
   --jerox-base-lt:        #fff;
 
-  --jerox-primary:        #e15;
-  --jerox-primary-lt:     #e15;
-  --jerox-primary-ltr:    #fdd;
+  --jerox-primary:        rgb(116, 238, 17);
+  --jerox-primary-lt:     rgb(153, 238, 17);
+  --jerox-primary-ltr:    rgb(237, 255, 221);
 
   --jerox-secondary:      #a66;
   --jerox-secondary-lt:   #a66;
@@ -25,7 +25,7 @@ body {
   box-sizing: border-box;
   color: var(--jerox-primary-ltr);
   border-radius: 4px;
-  box-shadow: -2px 3px 6px rgba(238, 17, 85, 0.5);
+  box-shadow: -2px 3px 6px rgba(87, 238, 17, 0.5);
   padding: 4px;
   background: var(--jerox-primary);
   transform: rotate(1deg);
@@ -61,7 +61,7 @@ h2 {
 	padding: 2px 0px 2px 12px;
 	border-radius: 3px;
 	font-size: 21px;
-  box-shadow: 0 3px 12px rgba(217, 14, 80, 0.87);
+  box-shadow: 0 3px 12px rgba(112, 217, 14, 0.87);
 }
 .hi::after {
 	content: '';
