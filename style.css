@@ -3,14 +3,14 @@
   --jerox-base-lt: #dc69b5;
 
   --jerox-primary: rgb(255, 255, 255);
-  --jerox-primary-lt:     rgb(0, 99, 92);
+  --jerox-primary-lt: rgb(220, 220, 220);
   --jerox-primary-ltr: rgb(35, 35, 35);
 
-  --jerox-secondary:      rgb(170, 152, 102);
-  --jerox-secondary-lt:   rgb(166, 170, 102);
-  --jerox-secondary-ltr:  rgb(169, 170, 102);
+  --jerox-secondary: rgb(0, 0, 0);
+  --jerox-secondary-lt: rgb(0, 0, 0);
+  --jerox-secondary-ltr: rgb(2, 2, 2);
 
-  --jerox-border: rgba(255, 255, 255, 0.4);
+  --jerox-border: rgba(0, 0, 0, 0.4);
 }
 
 body {
@@ -32,7 +32,7 @@ body {
 .seem {
   place-items: center;
   display: grid;
-  border: 2px dashed rgba(255,255,255,0.7);
+  border: 2px dashed var(--jerox-base-lt);
   border-radius: 3px;
   padding: 12px 6px 16px 6px;
 }
